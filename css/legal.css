@@ -1,0 +1,38 @@
+/* Páginas legais (LGPD e Política de Privacidade). Usa as variáveis de styles.css */
+.legal-top .top-in{height:64px}
+a.brand{text-decoration:none}
+.back{display:inline-flex;align-items:center;gap:8px;color:#fff;font-weight:600;font-size:14px;text-decoration:none;padding:9px 16px;border:1px solid rgba(255,255,255,.22);border-radius:999px;white-space:nowrap}
+.back:hover{border-color:var(--mint);color:var(--mint)}
+.back svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.legal-hero{background:radial-gradient(90% 70% at 100% 0%,rgba(94,234,212,.22),transparent 60%),radial-gradient(80% 60% at 0% 100%,rgba(13,148,136,.32),transparent 62%),linear-gradient(165deg,#0B1220 0%,#0F2D3A 62%,#134E4A 100%);color:#fff;padding:44px 0 56px}
+.legal-hero .h{margin-top:0;font-size:clamp(28px,7vw,46px)}
+.legal-hero .sub{max-width:680px}
+.legal{padding:44px 0 72px}
+.legal-in{max-width:820px;margin-left:auto;margin-right:auto;display:grid;gap:16px}
+.lcard{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px 22px}
+.lcard h2{font-size:clamp(19px,4.6vw,23px);font-weight:700;letter-spacing:-.02em;line-height:1.25}
+.lcard h2::before{content:"";display:block;width:36px;height:4px;border-radius:4px;background:linear-gradient(90deg,var(--teal),var(--mint));margin-bottom:14px}
+.lcard p{margin-top:12px;color:var(--soft);font-size:16px;line-height:1.7}
+.lcard h3{margin-top:20px;font-size:17px;font-weight:600;letter-spacing:-.01em;color:var(--text)}
+.lcard h3+p{margin-top:4px}
+.lcard strong{color:var(--text);font-weight:600}
+.lcard a{color:var(--tealD);font-weight:600;word-break:break-word}
+.lcard a:hover{color:var(--teal)}
+.lcard ul{display:grid;gap:10px;margin-top:14px}
+.lcard li{position:relative;padding-left:26px;color:var(--soft);font-size:16px;line-height:1.6}
+.lcard li::before{content:"";position:absolute;left:0;top:.45em;width:14px;height:14px;border-radius:50%;background:var(--mint) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230B1220' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/9px no-repeat}
+.lcard li b{color:var(--text);font-weight:600}
+.legal-back{margin-top:12px}
+.legal-back a{display:inline-flex;align-items:center;gap:8px;background:var(--navy);color:#fff;font-weight:600;font-size:15px;text-decoration:none;padding:14px 22px;border-radius:999px}
+.legal-back a:hover{background:var(--tealD)}
+.legal-back svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.foot.legal-foot{padding:32px 0}
+@media(max-width:520px){.back span{display:none}.back{padding:10px 12px}}
+@media(max-width:400px){.brand .br{display:none}}
+@media(min-width:860px){
+  .legal-top .top-in{height:68px}
+  .legal-hero{padding:80px 0 88px}
+  .legal{padding:72px 0 96px}
+  .legal-in{gap:20px}
+  .lcard{padding:34px 36px}
+}
